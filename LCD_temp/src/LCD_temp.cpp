@@ -119,7 +119,7 @@ void temperature_update(upm::GroveTemp* temperature_sensor, upm::GroveButton* bu
 	else
 	{
 		blink = 1;
-		row_2 << " Min " << min_temperature << " Max " << max_temperature << "    ";
+		row_2 << " hhhhhhh " << min_temperature << " Max " << max_temperature << "    ";
 	}
 	lcd->setCursor(0,0);
 	lcd->write(row_1.str());
